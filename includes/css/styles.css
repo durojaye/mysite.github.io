@@ -1,0 +1,175 @@
+/*
+
+My Custom CSS
+=============
+
+Author:  Brad Hussey
+Updated: August 2013
+Notes:	 Hand coded for Udemy.com
+
+*/
+
+
+/* --------------------------------------
+   Layout
+   -------------------------------------- */
+   
+   .carousel.fade {
+  opacity: 1;
+}
+.carousel.fade .item {
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  left: 0 !important;
+  opacity: 0;
+  top:0;
+  position:absolute;
+  width: 100%;
+  display:block !important;
+  z-index:1;
+}
+.carousel.fade .item:first-child {
+  top:auto;
+  position:relative;
+}
+.carousel.fade .item.active {
+  opacity: 1;
+  -moz-transition: opacity ease-in-out .7s;
+  -o-transition: opacity ease-in-out .7s;
+  -webkit-transition: opacity ease-in-out .7s;
+  transition: opacity ease-in-out .7s;
+  z-index:2;
+}
+  
+/* --------------------------------------
+   Typography
+   -------------------------------------- */
+#b{
+background-color:#00002B;
+
+}
+#a{
+background-color:#00AAD5;
+
+}
+#c{
+background-color:#550055;
+
+}
+#d{
+background-color:#800000;
+
+}
+#e{
+background-color:#00FF2B;
+
+}
+#f{
+background-color:#002B00;
+
+}
+.white{
+color:#123DE7;
+
+}
+#color{
+ color:red;
+}
+#col{
+ color:blue;
+}
+#change{
+font-family:georgia;
+text-decoration:underline;
+background-color:#AA55FF;
+color:#002AFF;
+}
+#see{
+background-color:#2AFFAA;
+color:#D4FF7F;
+}
+
+#fool{
+background-color:#2E0459;
+color:#D4FF7F;
+}
+#lock{
+background-color:#2E0459;
+color:#FFAAFF;
+}
+
+#real{
+
+color:#000080;
+}
+/* --------------------------------------
+   Navbar
+   -------------------------------------- */
+ footer{
+ background-color:#333;
+ color:#eee;
+ padding:10px;
+ 
+ 
+ }
+  
+/* --------------------------------------
+   Carousel
+   -------------------------------------- */
+
+
+/* --------------------------------------
+   Global Styles
+   -------------------------------------- */
+
+ul ,.navbar-brand{
+background:#0E0E39;
+}
+.navbar-brand{
+background:#00002B;
+}
+
+.carousel-caption h3  {
+font-size:60px;
+
+
+}
+.carousel-caption p{
+font-size:40px;
+}
+
+
+/* --------------------------------------
+   Media Queries
+   -------------------------------------- */
+
+/* Portrait & landscape phone */
+@media (max-width: 480px) {
+
+
+
+
+}
+/* Landscape phone to portrait tablet */
+@media (max-width: 768px) {
+
+.carousel-caption h3  {
+font-size:20px;
+
+
+}
+.carousel-caption p{
+font-size:10px;
+}
+	
+
+
+
+ }
+/* Large desktop */
+@media (min-width: 1200px) {
+
+	
+}
